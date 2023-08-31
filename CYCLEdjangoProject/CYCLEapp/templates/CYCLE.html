@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CYCLE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    {% load static %}
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/cycle" style="color: white; font-size: 32px; font-family: Rajdhani; font-weight: 500; line-height: 55px;">CYCLE</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/bikes">Bikes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/bikes">E-Bikes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/bikes">Equipment</a>
+            </li>
+          </ul>
+
+          <p><a href="/login"><img src="../static/user.png" style="width:50px;height:50px;"></a></p>
+
+        </div>
+      </div>
+    </nav>
+
+   <div style="width: 100%; height: 854px; left: 0px; top: 94px; position: absolute">
+        <div style="width: 100%; height: 680px; left: 0px; top: 0px; position: absolute; background: black"></div>
+        <div style="align-items: center;  left: 940px; top: 20%; position: absolute"><span style="color: white; font-size: 40px; font-family: Poppins; font-weight: 600; text-transform: uppercase; line-height: 24px; word-wrap: break-word">Bike harder, go further</span><span style="color: white; font-size: 40px; font-family: Poppins; font-weight: 600; text-transform: uppercase; line-height: 24px; word-wrap: break-word"><br/> <br/></span><span style="color: white; font-size: 32px; font-family: Poppins; font-weight: 600; text-transform: uppercase; line-height: 24px; word-wrap: break-word">shop for the fast-growing community of <br>cycling enthusiasts, promoting green mobility.</span>
+            <br><br>
+            <a class="nav-link active" aria-current="page" href="/bikes" style="width: 167px; height: 56px; left: 300px; top: 220px; padding-left: 32px; padding-right: 32px; position: absolute; background: linear-gradient(180deg, #FFBB00 0%, #F2A60C 100%); border-radius: 5px; justify-content: center; align-items: center;  gap: 10px; display: inline-flex; font-size: 18px; font-family: Poppins; text-transform: uppercase; line-height: 24px;">Shop Bikes</a>
+        </div>
+        <img style="left: 5%; top: 10%; position: absolute; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 5px; border: 0.50px black solid" src="../static/biker.png" />
+    </div>
+
+    <div style=" align-content: center; left: 18px; top: 1052px; position: absolute">
+        <div style="color: black; font-size: 32px; font-family: Roboto; font-weight: 600; line-height: 24px; word-wrap: break-word">Featured items</div><br>
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+
+            <div class="col">
+                <a class="card h-100" href="/bike">
+                    <div class="card-body" style="width: 477px; height: 112px; left: 0px; top: 432px; position: absolute; text-align: center; color: #121212; font-size: 20px; font-family: Poppins; font-weight: 600; line-height: 40px; word-wrap: break-word">Trek ÉMONDA <br/>SLR 7 DISC Ultegra Di2 Roadbike - 2023 - Metallic Red Smoke to Red Carbon  smoke</div>
+                    <div class="card-body" style="left: 196px; top: 572px; position: absolute; text-align: center; color: #595959; font-size: 18px; font-family: Roboto; font-weight: 500; line-height: 24px; word-wrap: break-word">7.142,02 €</div>
+                    <img class="card-img-top" style="width: auto; height: 393.91px; left: 60px; top: 0px;" src="../static/emonda.png" />
+                </a>
+            </div>
+
+            <div class="col">
+                <a class="card h-100" href="/bike">
+                    <div class="card-body" style="width: 477px; height: 112px; left: 0px; top: 432px; position: absolute; text-align: center; color: #121212; font-size: 20px; font-family: Poppins; font-weight: 600; line-height: 40px; word-wrap: break-word">Vidda Pro Trousers - Long - green/dark grey</div>
+                    <div class="card-body" style="left: 196px; top: 572px; position: absolute; text-align: center; color: #595959; font-size: 18px; font-family: Roboto; line-height: 24px; word-wrap: break-word">92,43 €</div>
+                    <img class="card-img-top" style="width: auto; height: 393.91px; left: 60px; top: 0px;" src="../static/pants.png" />
+                </a>
+            </div>
+
+           <div class="col">
+                <a class="card h-100" href="/bike">
+                    <div style="width: 477px; height: 112px; left: 16px; top: 446px; position: absolute; text-align: center; color: #121212; font-size: 20px; font-family: Poppins; font-weight: 600; line-height: 40px; word-wrap: break-word">Lapierre XRM 6.9 - 29" Carbon Mountainbike - 2023</div>
+                    <div style="left: 212px; top: 586px; position: absolute; text-align: center; color: #595959; font-size: 18px; font-family: Roboto; font-weight: 500; line-height: 24px; word-wrap: break-word">3.444,54 €</div>
+                    <img class="card-img-top" style=" height: 350px; left: 0px; top: 0px;" src="../static/lapierre.png" />
+                </a>
+            </div>
+
+            <div class="col">
+                <a class="card h-100" href="/bike">
+                    <div class="card-body" style="width: 477px; height: 112px; left: 0px; top: 432px; position: absolute; text-align: center; color: #121212; font-size: 20px; font-family: Poppins; font-weight: 600; line-height: 40px; word-wrap: break-word">Trek ÉMONDA <br/>SLR 7 DISC Ultegra Di2 Roadbike - 2023 - Metallic Red Smoke to Red Carbon  smoke</div>
+                    <div class="card-body" style="left: 196px; top: 572px; position: absolute; text-align: center; color: #595959; font-size: 18px; font-family: Roboto; font-weight: 500; line-height: 24px; word-wrap: break-word">7.142,02 €</div>
+                    <img class="card-img-top" style="width: auto; height: 393.91px; left: 60px; top: 0px;" src="../static/emonda.png" />
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <div style="margin-top: 1800px; margin-left: 8%">
+        <img style="position: absolute" src="../static/logos.png" />
+    </div>
+
+
+    <div style="width: 100%; position: relative; background: white">
+    <div style="width: 100%; left: 0px; top: 500px; position: absolute">
+        <div style="width: 100%; height: 960px; left: 0px; top: 0px; position: absolute; background: #121212"></div>
+        <div style="width: 100%; height: 960px; left: 1097px; top: 0px; position: absolute; background: #D9D9D9"></div>
+        <div style="width: 549px; left: 220px; top: 124px; position: absolute; color: white; font-size: 64px; font-family: Rajdhani; font-weight: 600; text-transform: lowercase; line-height: 72px; word-wrap: break-word">CYCLE -Your Online Bike Shop</div>
+        <div style="width: 534px; left: 220px; top: 302px; position: absolute; color: #B3B3B3; font-size: 24px; font-family: Roboto; font-weight: 400; line-height: 36px; word-wrap: break-word"><br/>As one of the leading bicycle shops in Europe, we offer a huge selection of complete bikes, with a portfolio of over 800 brands, in order to satisfy every bicycle wish and fulfill dreams: from high-end road bikes to mountain bikes of all kinds, from gravel bikes, fitness bikes, e-bikes or city bikes. Also when it comes to the bike equipment and the right gear, every cycling fan and recreational cyclist will find what he is looking for online at BIKE24 in the extensive parts and accessories categories.</div>
+        <img style="width: 660px; height: 808px; left: 849px; top: 340px; position: absolute" src="../static/bike.png" />
+    </div>
+
+
+    <div style="width: 100%; height: 492px; left: 0px; top: 1976px; position: absolute">
+        <div style="width: 100%; height: 492px; left: 0px; top: 0px; position: absolute; background: black"></div>
+        <div style="left: 520px; top: 60px; position: absolute; color: white; font-size: 24px; font-family: Roboto; font-weight: 500; text-transform: uppercase; line-height: 32px; letter-spacing: 0.36px; word-wrap: break-word">COntact</div>
+        <div style="left: 1020px; top: 60px; position: absolute; color: white; font-size: 24px; font-family: Roboto; font-weight: 500; text-transform: uppercase; line-height: 32px; letter-spacing: 0.36px; word-wrap: break-word">more Informations</div>
+        <div style="left: 520px; top: 124px; position: absolute; color: #B3B3B3; font-size: 18px; font-family: Roboto; font-weight: 400; line-height: 32px; letter-spacing: 0.27px; word-wrap: break-word">+389 00 000 000<br/>maili@mail.com<br/><br/>Street: "Ruger Boskovikj" <br/>Skopje, R. Macedonia</div>
+        <div style="width: 360px; height: 2px; left: 520px; top: 203px; position: absolute; background: #121212"></div>
+        <div style="width: 360px; height: 2px; left: 520px; top: 299px; position: absolute; background: #121212"></div>
+        <div style="left: 1020px; top: 124px; position: absolute; color: #B3B3B3; font-size: 18px; font-family: Poppins; font-weight: 400; line-height: 36px; letter-spacing: 0.27px; word-wrap: break-word">Contact support</div>
+        <div style="left: 163px; top: 173px; position: absolute; color: #9C9C9C; font-size: 18px; font-family: Roboto; font-weight: 400; line-height: 32px; letter-spacing: 0.27px; word-wrap: break-word">Cycle © All rights reserved.</div>
+        <img style="width: 452.52px; height: 393.42px; left: 49px; top: -233.57px; position: absolute" src="../static/bike2.png" />
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CYCLE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    {% load static %}
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/cycle" style="color: white; font-size: 32px; font-family: Rajdhani; font-weight: 500; line-height: 55px;">CYCLE</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/bikes">Bikes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/bikes">E-Bikes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/bikes">Equipment</a>
+            </li>
+          </ul>
+
+          <p><a href="/login"><img src="../static/user.png" style="width:50px;height:50px;"></a></p>
+        </div>
+      </div>
+    </nav>
+
+    <div style="width: 100%; height: 100%; position: relative; background: #F7F7F7">
+
+    <div style="width: 100%; height: 640px; left: 0px; top: 88px; position: absolute">
+        <div style="width: 100%; height: 360.81px; left: 0px; top: 0px; position: absolute; background: #121212"></div>
+        <div style="width: 1138.25px; height: 618.52px; left: 215.88px; top: 21.48px; position: absolute; background: #CCCCCC; box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.10); border-radius: 5px"></div>
+        <div style="width: 154px; height: 26px; left: 726px; top: 86px; position: absolute; color: #121212; font-size: 16px; font-family: Poppins; font-weight: 500; line-height: 24px; word-wrap: break-word">Color</div>
+        <div style="width: 154px; height: 26px; left: 726px; top: 192px; position: absolute; color: #121212; font-size: 16px; font-family: Poppins; font-weight: 500; line-height: 24px; word-wrap: break-word">Shifter</div>
+        <div style="width: 154px; height: 26px; left: 1025px; top: 190px; position: absolute; color: #121212; font-size: 16px; font-family: Poppins; font-weight: 500; line-height: 24px; word-wrap: break-word">Handles</div>
+        <div style="width: 233px; height: 24px; left: 726px; top: 300px; position: absolute; color: #121212; font-size: 16px; font-family: Poppins; font-weight: 500; line-height: 24px; word-wrap: break-word">Add additional option</div>
+        <div style="width: 99px; height: 26px; left: 1021px; top: 87px; position: absolute; color: #121212; font-size: 16px; font-family: Poppins; font-weight: 500; line-height: 24px; word-wrap: break-word">Chassis</div>
+
+
+            <div class="btn-group" style="width: 274.75px; height: 51.54px; left: 719px; top: 116px; position: absolute; background: #F7F7F7; border-radius: 5px; border: 0.50px #EDEDED solid">
+              <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                Red
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">red</a></li>
+                <li><a class="dropdown-item" href="#">blue</a></li>
+                <li><a class="dropdown-item" href="#">green</a></li>
+              </ul>
+            </div>
+
+
+            <div class="btn-group" style="width: 274.75px; height: 51.54px; left: 1020.50px; top: 117.05px; position: absolute; background: #F7F7F7; border-radius: 5px; border: 0.50px #EDEDED solid">
+              <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                S
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">S</a></li>
+                <li><a class="dropdown-item" href="#">M</a></li>
+                <li><a class="dropdown-item" href="#">L</a></li>
+              </ul>
+            </div>
+
+
+
+            <div class="btn-group" style="width: 274.75px; height: 51.54px; left: 719px; top: 223px; position: absolute; background: #F7F7F7; border-radius: 5px; border: 0.50px #EDEDED solid">
+              <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                shimano sh7909
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">shimano sh76409</a></li>
+                <li><a class="dropdown-item" href="#">shimano sh123</a></li>
+                <li><a class="dropdown-item" href="#">KTM 293</a></li>
+              </ul>
+            </div>
+
+            <div class="btn-group" style="width: 274.75px; height: 51.54px; left: 1025px; top: 223px; position: absolute; background: #F7F7F7; border-radius: 5px; border: 0.50px #EDEDED solid">
+              <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                S
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">L sh76409</a></li>
+                <li><a class="dropdown-item" href="#">M</a></li>
+              </ul>
+            </div>
+
+            <form class="form-floating" style="left: 720px; top: 336px; position: absolute; background: #F7F7F7; border-radius: 5px; border: 0.50px #EDEDED solid">
+                <input type="email" class="form-control" id="floatingInputValue">
+                <label for="floatingInputValue">Write here:</label>
+            </form>
+    </div>
+
+    <img style="width: 456.84px; height: 386.15px; left: 228px; top: 193.42px; position: absolute" src="../static/bike2.png" />
+
+
+    <div style="width: 231.57px; height: 60.13px; padding-left: 32px; padding-right: 32px; padding-top: 16px; padding-bottom: 16px; left: 889px; top: 629px; position: absolute; background: linear-gradient(180deg, #FFBB00 0%, #F2A60C 100%); border-radius: 5px; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+        <a class="nav-link active" aria-current="page" href="/buy2" style="color: #332200; font-size: 18px; font-family: Poppins; font-weight: 600; text-transform: uppercase; line-height: 24px; word-wrap: break-word">ORDER NOW</a>
+    </div>
+
+</div>
+
+    <div style="width: 100%; height: 492px; left: 0px; top: 1200px; position: absolute">
+        <div style="width: 100%; height: 492px; left: 0px; top: 0px; position: absolute; background: black"></div>
+        <div style="left: 520px; top: 60px; position: absolute; color: white; font-size: 24px; font-family: Roboto; font-weight: 500; text-transform: uppercase; line-height: 32px; letter-spacing: 0.36px; word-wrap: break-word">COntact</div>
+        <div style="left: 1020px; top: 60px; position: absolute; color: white; font-size: 24px; font-family: Roboto; font-weight: 500; text-transform: uppercase; line-height: 32px; letter-spacing: 0.36px; word-wrap: break-word">more Informations</div>
+        <div style="left: 520px; top: 124px; position: absolute; color: #B3B3B3; font-size: 18px; font-family: Roboto; font-weight: 400; line-height: 32px; letter-spacing: 0.27px; word-wrap: break-word">+389 00 000 000<br/>maili@mail.com<br/><br/>Street: "Ruger Boskovikj" <br/>Skopje, R. Macedonia</div>
+        <div style="width: 360px; height: 2px; left: 520px; top: 203px; position: absolute; background: #121212"></div>
+        <div style="width: 360px; height: 2px; left: 520px; top: 299px; position: absolute; background: #121212"></div>
+        <div style="left: 1020px; top: 124px; position: absolute; color: #B3B3B3; font-size: 18px; font-family: Poppins; font-weight: 400; line-height: 36px; letter-spacing: 0.27px; word-wrap: break-word">Contact support</div>
+        <div style="left: 163px; top: 173px; position: absolute; color: #9C9C9C; font-size: 18px; font-family: Roboto; font-weight: 400; line-height: 32px; letter-spacing: 0.27px; word-wrap: break-word">Cycle © All rights reserved.</div>
+        <img style="width: 452.52px; height: 393.42px; left: 49px; top: -233.57px; position: absolute" src="../static/bike2.png" />
+    </div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+
+</body>
+</html>
+

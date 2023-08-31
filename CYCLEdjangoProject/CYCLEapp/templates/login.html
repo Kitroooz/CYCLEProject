@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CYCLE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    {% load static %}
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/cycle" style="color: white; font-size: 32px; font-family: Rajdhani; font-weight: 500; line-height: 55px;">CYCLE</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/bikes">Bikes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/bikes">E-Bikes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/bikes">Equipment</a>
+            </li>
+          </ul>
+
+          <p><a href="/login"><img src="../static/user.png" style="width:50px;height:50px;"></a></p>
+        </div>
+      </div>
+    </nav>
+
+    <div style="width: 100%; height: 100%; position: relative; background: black">
+    <div style="left: 1071px; top: 157px; position: absolute; color: #393434; font-size: 80px; font-family: Cabin; font-weight: 400; word-wrap: break-word">LOG IN</div>
+    <div style="width: 438px; height: 0px; left: 975px; top: 267px; position: absolute; border: 1px #D9D9D9 dotted"></div>
+    <div style="width: 438px; height: 0px; left: 975px; top: 659px; position: absolute; border: 0.50px black dotted"></div>
+
+    <div class="container" style="align-items: center;">
+                <div style="width: 738px; height: 1117px; left: 0px; top: 0px; position: absolute; background: #D9D9D9"></div>
+
+        <form class="form-floating" style="padding-left: 10%; left: 905px; top: 378px; position: absolute; opacity: 0.80; color: black; font-size: 30px; font-family: Cabin; font-weight: 400; word-wrap: break-word">
+            <input type="Name" class="form-control" id="floatingInputValue">
+            <label for="floatingInputValue">Name:</label>
+        </form>
+
+        <form class="form-floating" style="padding-left: 10%; left: 905px; top: 512px; position: absolute; opacity: 0.80; color: black; font-size: 30px; font-family: Cabin; font-weight: 400; word-wrap: break-word">
+            <input type="Password" class="form-control" id="floatingInputValue">
+            <label for="floatingInputValue">Password:</label>
+        </form>
+
+        <div style="padding-left: 32px; padding-right: 32px; padding-top: 16px; padding-bottom: 16px; left: 1134px; top: 706px; position: absolute; background: linear-gradient(180deg, #FFBB00 0%, #F2A60C 100%); border-radius: 5px; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+            <a class="nav-link active" aria-current="page" href="/cycle" style="color: #332200; font-size: 18px; font-family: Poppins; font-weight: 600; text-transform: uppercase; line-height: 24px; word-wrap: break-word">Login</a>
+        </div>
+
+        <a class="nav-link active" aria-current="page" href="/signup" style="left: 1117px; top: 773px; position: absolute; color: #FFBB00; font-size: 20px; font-family: Cabin; font-weight: 400; word-wrap: break-word">Create an Account</a>
+
+    </div>
+
+        <div style="width: 100%; height: 492px; left: 0px; top: 876px; position: absolute">
+        <div style="width: 100%; height: 492px; left: 0px; top: 0px; position: absolute; background: black"></div>
+        <div style="left: 520px; top: 60px; position: absolute; color: white; font-size: 24px; font-family: Roboto; font-weight: 500; text-transform: uppercase; line-height: 32px; letter-spacing: 0.36px; word-wrap: break-word">COntact</div>
+        <div style="left: 1020px; top: 60px; position: absolute; color: white; font-size: 24px; font-family: Roboto; font-weight: 500; text-transform: uppercase; line-height: 32px; letter-spacing: 0.36px; word-wrap: break-word">more Informations</div>
+        <div style="left: 520px; top: 124px; position: absolute; color: #B3B3B3; font-size: 18px; font-family: Roboto; font-weight: 400; line-height: 32px; letter-spacing: 0.27px; word-wrap: break-word">+389 00 000 000<br/>maili@mail.com<br/><br/>Street: "Ruger Boskovikj" <br/>Skopje, R. Macedonia</div>
+        <div style="width: 360px; height: 2px; left: 520px; top: 203px; position: absolute; background: #121212"></div>
+        <div style="width: 360px; height: 2px; left: 520px; top: 299px; position: absolute; background: #121212"></div>
+        <div style="left: 1020px; top: 124px; position: absolute; color: #B3B3B3; font-size: 18px; font-family: Poppins; font-weight: 400; line-height: 36px; letter-spacing: 0.27px; word-wrap: break-word">Contact support</div>
+        <div style="left: 163px; top: 173px; position: absolute; color: #9C9C9C; font-size: 18px; font-family: Roboto; font-weight: 400; line-height: 32px; letter-spacing: 0.27px; word-wrap: break-word">Cycle © All rights reserved.</div>
+        <img style="width: 452.52px; height: 393.42px; left: 49px; top: -233.57px; position: absolute" src="../static/bike2.png" />
+    </div>
+</div>
+</body>
+</html>
+

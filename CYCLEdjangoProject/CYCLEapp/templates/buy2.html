@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CYCLE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    {% load static %}
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/cycle" style="color: white; font-size: 32px; font-family: Rajdhani; font-weight: 500; line-height: 55px;">CYCLE</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/bikes">Bikes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/bikes">E-Bikes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/bikes">Equipment</a>
+            </li>
+          </ul>
+
+          <p><a href="/login"><img src="../static/user.png" style="width:50px;height:50px;"></a></p>
+        </div>
+      </div>
+    </nav>
+
+    <div style="width: 100%; height: 336px; left: 0px; top: 319px; position: absolute; background: #121212"></div>
+    <div style="width: 1160px; height: 930px; left: 220px; top: 339px; position: absolute; background: #CCCCCC; box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.10); border-radius: 5px"></div>
+    <div style="width: 460px; height: 930px; left: 196px; top: 330px; position: absolute; background: black; border-top-left-radius: 5px; border-top-right-radius: 5px"></div>
+    <div style="width: 600px; height: 786px; left: 720px; top: 446px; position: absolute">
+        <div style="width: 588px; height: 438px; left: 0px; top: 142px; position: absolute">
+
+            <form class="form-floating"  style="width: 280px; height: 76px; left: 8px; top: 5px; position: absolute">
+                <input type="email" class="form-control" id="floatingInputValue">
+                <label for="floatingInputValue">Address:</label>
+            </form>
+
+
+
+            <form style="width: 280px; height: 76px; left: 308px; top: 5px; position: absolute" class="form-floating" style="left: 720px; top: 336px; position: absolute; background: #F7F7F7; border-radius: 5px; border: 0.50px #EDEDED solid">
+                <input type="email" class="form-control" id="floatingInputValue">
+                <label for="floatingInputValue">Number:</label>
+            </form>
+
+            <div class="btn-group" style=" background: white; width: 270px; height: 50px; left: 10px; top: 137px; position: absolute">
+              <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                Color
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">red</a></li>
+                <li><a class="dropdown-item" href="#">blue</a></li>
+                <li><a class="dropdown-item" href="#">green</a></li>
+              </ul>
+           </div>
+
+            <div style="width: 233px; height: 56px; padding-left: 62px; padding-right: 32px; padding-top: 16px; padding-bottom: 16px; left: 170px; top: 282px; position: absolute; background: linear-gradient(180deg, #FFBB00 0%, #F2A60C 100%); border-radius: 5px; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+                <a href="/cycle" style="color: #332200; font-size: 18px; font-family: Poppins; font-weight: 600; text-transform: uppercase; line-height: 24px; word-wrap: break-word">Make your order</a>
+            </div>
+
+        </div>
+        <div style="width: 580px; height: 77px; left: 0px; top: 0px; position: absolute">
+
+
+
+            <form class="form-floating" style="width: 280px; height: 76px; left: 0px; top: 0px; position: absolute">
+                <input type="email" class="form-control" id="floatingInputValue">
+                <label for="floatingInputValue">Name:</label>
+            </form>
+
+            <form class="form-floating"  style="width: 280px; height: 76px; left: 300px; top: 1px; position: absolute">
+                <input type="email" class="form-control" id="floatingInputValue">
+                <label for="floatingInputValue">Surname:</label>
+            </form>
+
+        </div>
+    </div>
+
+    <div style="height: 274.50px; left: 280px; top: 612px; position: absolute">
+        <div style="width: 340px; height: 168px; left: 0px; top: 0px; position: absolute">
+            <div style="width: 340px; height: 156px; left: 0px; top: 12px; position: absolute; background: white; border-radius: 5px"></div>
+            <div style="left: 31px; top: 0px; position: absolute; color: #121212; font-size: 15px; font-family: Poppins; font-weight: 400; line-height: 72px; word-wrap: break-word">Trek ÉMONDA SLR 7</div>
+            <div style="left: 32px; top: 56px; position: absolute; color: #121212; font-size: 16px; font-family: Roboto; font-weight: 500; line-height: 16px; word-wrap: break-word">$ 7, 142,02</div>
+            <div style="width: 12px; height: 12px; left: 12px; top: 30px; position: absolute; border-radius: 9999px; border: 0.50px #9C9C9C solid"></div>
+            <div style="width: 4px; height: 4px; left: 16px; top: 34px; position: absolute; background: #707070; border-radius: 9999px"></div>
+        </div>
+        <div style="width: 340px; height: 106.50px; left: 0px; top: 168px; position: absolute">
+            <div style="width: 340px; height: 120px; left: 0px; top: 58.50px; position: absolute; background: #a24e4e; border-radius: 5px"></div>
+            <div style="left: 45px; top: 76px; position: absolute; color: #CCCCCC; font-size: 16px; font-family: Roboto; font-weight: 500; line-height: 16px; word-wrap: break-word">Color</div>
+        </div>
+    </div>
+
+    <div style="width: 100%; height: 223px; left: 0px; top: 96px; position: absolute">
+    <div style="width: 100%; height: 223px; left: 0px; top: 30px; position: absolute; background: #121212"></div>
+        <div style="left: 200px; top: 85px; position: absolute; color: white; font-size: 43px; font-family: Poppins; font-weight: 600; line-height: 72px; word-wrap: break-word">Make your order</div>
+    </div>
+
+
+    <div style="width: 12px; height: 12px; left: 436px; top: 857px; position: absolute; border-radius: 9999px">
+      <div class="form-check">
+      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+      <label class="form-check-label" for="flexRadioDefault1">
+        red
+      </label>
+        </div>
+
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+      <label class="form-check-label" for="flexRadioDefault2">
+        green
+      </label>
+    </div>
+    </div>
+
+    <img style="width: 96px; height: 86px; left: 494px; top: 653px; position: absolute; border-radius: 10px" src="../static/trek1.png" />
+</div>
+
+     <div style="width: 100%; height: 492px; left: 0px; top: 1250px; position: absolute">
+        <div style="width: 100%; height: 492px; left: 0px; top: 0px; position: absolute; background: black"></div>
+        <div style="left: 520px; top: 60px; position: absolute; color: white; font-size: 24px; font-family: Roboto; font-weight: 500; text-transform: uppercase; line-height: 32px; letter-spacing: 0.36px; word-wrap: break-word">COntact</div>
+        <div style="left: 1020px; top: 60px; position: absolute; color: white; font-size: 24px; font-family: Roboto; font-weight: 500; text-transform: uppercase; line-height: 32px; letter-spacing: 0.36px; word-wrap: break-word">more Informations</div>
+        <div style="left: 520px; top: 124px; position: absolute; color: #B3B3B3; font-size: 18px; font-family: Roboto; font-weight: 400; line-height: 32px; letter-spacing: 0.27px; word-wrap: break-word">+389 00 000 000<br/>maili@mail.com<br/><br/>Street: "Ruger Boskovikj" <br/>Skopje, R. Macedonia</div>
+        <div style="width: 360px; height: 2px; left: 520px; top: 203px; position: absolute; background: #121212"></div>
+        <div style="width: 360px; height: 2px; left: 520px; top: 299px; position: absolute; background: #121212"></div>
+        <div style="left: 1020px; top: 124px; position: absolute; color: #B3B3B3; font-size: 18px; font-family: Poppins; font-weight: 400; line-height: 36px; letter-spacing: 0.27px; word-wrap: break-word">Contact support</div>
+        <div style="left: 163px; top: 173px; position: absolute; color: #9C9C9C; font-size: 18px; font-family: Roboto; font-weight: 400; line-height: 32px; letter-spacing: 0.27px; word-wrap: break-word">Cycle © All rights reserved.</div>
+        <img style="width: 452.52px; height: 393.42px; left: 49px; top: -233.57px; position: absolute" src="../static/bike2.png" />
+    </div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+
+</body>
+</html>
